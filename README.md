@@ -1,6 +1,10 @@
 # BO-T
 
-BO-T is a Python implementation of response-preserving matrix reduction and root selection for BO/PDRK kinetic plasma dispersion calculations. This source tree contains the numerical inputs and plotting pipeline for the seven active manuscript examples.
+BO-T (BO-Tian) is a Python implementation of response-preserving matrix reduction and root selection for BO/PDRK kinetic plasma dispersion calculations. This source tree contains the numerical inputs and plotting pipeline for the seven active manuscript examples.
+
+## Reference
+
+[Tian2026] Xizhi Tian, Huasheng Xie and Long Wei, Accelerating Computation and Resolving Extraneous Roots in the Kinetic Plasma Dispersion Relation Solver BO, to be submitted, 2026.
 
 ## Reproduce the figures
 
