@@ -1,0 +1,379 @@
+{
+  "all_compared_arrays_passed": true,
+  "all_seven_cases_present": true,
+  "cases": {
+    "es1d_beam": {
+      "accumulated_scan_seconds": 3.602249801158905,
+      "environment": {
+        "blas_libraries": [
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.31.188.0"
+          },
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.30"
+          }
+        ],
+        "blas_threads": 1,
+        "machine": "AMD64",
+        "numpy": "2.4.6",
+        "platform": "win32",
+        "python": "3.14.5",
+        "scipy": "1.17.1"
+      },
+      "full_scan": true,
+      "numerical_run_sha256": "b169b0119280cebe510898986d1f65126ed939b39c66b412011f76d4ef2d7bb7",
+      "plan_sha256": "3b913cedde46ceee04947b7f7d590d098f994f46308852ccd6e01832c7c76b2e",
+      "raw": {
+        "count_mismatches": [],
+        "fresh_root_count": 800,
+        "matched_within_tolerance": 800,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 800,
+        "scan_count": 50,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      },
+      "scan_count": 50,
+      "selected": {
+        "count_mismatches": [],
+        "fresh_root_count": 207,
+        "matched_within_tolerance": 207,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 207,
+        "scan_count": 50,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      }
+    },
+    "firehose": {
+      "accumulated_scan_seconds": 201.37400870025158,
+      "environment": {
+        "blas_libraries": [
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.31.188.0"
+          },
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.30"
+          }
+        ],
+        "blas_threads": 1,
+        "machine": "AMD64",
+        "numpy": "2.4.6",
+        "platform": "win32",
+        "python": "3.14.5",
+        "scipy": "1.17.1"
+      },
+      "full_scan": true,
+      "numerical_run_sha256": "6944cc4a476a3f9b7a57fcf9f07138509e90e7390ca30136a05c30a5196435fb",
+      "plan_sha256": "f38dd68f9f14b8f3aff38adaa8e77bfe717fcc9722cb8d79be676ef7076fa794",
+      "raw": {
+        "count_mismatches": [],
+        "fresh_root_count": 22476,
+        "matched_within_tolerance": 22476,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 22476,
+        "scan_count": 46,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      },
+      "scan_count": 46,
+      "selected": {
+        "count_mismatches": [],
+        "fresh_root_count": 3077,
+        "matched_within_tolerance": 3077,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 3077,
+        "scan_count": 46,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      }
+    },
+    "hh_ring_beam": {
+      "accumulated_scan_seconds": 180.5421531032771,
+      "environment": {
+        "blas_libraries": [
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.31.188.0"
+          },
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.30"
+          }
+        ],
+        "blas_threads": 1,
+        "machine": "AMD64",
+        "numpy": "2.4.6",
+        "platform": "win32",
+        "python": "3.14.5",
+        "scipy": "1.17.1"
+      },
+      "full_scan": true,
+      "numerical_run_sha256": "25719b850b911ec5f3d4a15405199e2a065f68c955cc246a442e8b7190b74990",
+      "plan_sha256": "afb0e5c0cf8cc0a164ab4f41e7bf2833c44a4be524833c3b8166c5cc555db390",
+      "raw": {
+        "count_mismatches": [],
+        "fresh_root_count": 78770,
+        "matched_within_tolerance": 78770,
+        "max_normalized_error": 1.6472951317065095e-11,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 78770,
+        "scan_count": 117,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      },
+      "scan_count": 117,
+      "selected": {
+        "count_mismatches": [],
+        "fresh_root_count": 1999,
+        "matched_within_tolerance": 1999,
+        "max_normalized_error": 2.3958257220021466e-13,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 1999,
+        "scan_count": 117,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      }
+    },
+    "loss_cone_mirror": {
+      "accumulated_scan_seconds": 281.02647349610925,
+      "environment": {
+        "blas_libraries": [
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.31.188.0"
+          },
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.30"
+          }
+        ],
+        "blas_threads": 1,
+        "machine": "AMD64",
+        "numpy": "2.4.6",
+        "platform": "win32",
+        "python": "3.14.5",
+        "scipy": "1.17.1"
+      },
+      "full_scan": true,
+      "numerical_run_sha256": "73b2f73439f85ba72a943ad8b0e13623071fbfe71af469691b73bc2585601189",
+      "plan_sha256": "31fc2b11db78ec211625e459db7ba9d7d3a80f1ef0175b86c6772bcab9c1fd23",
+      "raw": {
+        "count_mismatches": [],
+        "fresh_root_count": 23000,
+        "matched_within_tolerance": 23000,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 23000,
+        "scan_count": 100,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      },
+      "scan_count": 100,
+      "selected": {
+        "count_mismatches": [],
+        "fresh_root_count": 1845,
+        "matched_within_tolerance": 1845,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 1845,
+        "scan_count": 100,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      }
+    },
+    "muschietti_beam": {
+      "accumulated_scan_seconds": 668.851358695887,
+      "environment": {
+        "blas_libraries": [
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.31.188.0"
+          },
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.30"
+          }
+        ],
+        "blas_threads": 1,
+        "machine": "AMD64",
+        "numpy": "2.4.6",
+        "platform": "win32",
+        "python": "3.14.5",
+        "scipy": "1.17.1"
+      },
+      "full_scan": true,
+      "numerical_run_sha256": "6fcc59b66caea786017b7cbbdc3355fab883b5ccb8e64f712796543582876296",
+      "plan_sha256": "1e6f7e6a78be3a351377d3faa209cb0048aea03d7105c8952a5aa55c5e8685af",
+      "raw": {
+        "count_mismatches": [],
+        "fresh_root_count": 42938,
+        "matched_within_tolerance": 42938,
+        "max_normalized_error": 1.7322016931472424e-08,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 42938,
+        "scan_count": 131,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      },
+      "scan_count": 131,
+      "selected": {
+        "count_mismatches": [],
+        "fresh_root_count": 1633,
+        "matched_within_tolerance": 1633,
+        "max_normalized_error": 4.082023827670927e-13,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 1633,
+        "scan_count": 131,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      }
+    },
+    "signed_em": {
+      "accumulated_scan_seconds": 400.39528900105506,
+      "environment": {
+        "blas_libraries": [
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.31.188.0"
+          },
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.30"
+          }
+        ],
+        "blas_threads": 1,
+        "machine": "AMD64",
+        "numpy": "2.4.6",
+        "platform": "win32",
+        "python": "3.14.5",
+        "scipy": "1.17.1"
+      },
+      "full_scan": true,
+      "numerical_run_sha256": "2521bb0d6a187fcc989fb3a3161d8fea1a7b782f72ecf8b49d6f28409df2a90e",
+      "plan_sha256": "f01c9cf2e2404d520659fd07a905af47d27839082fab418462563e0e136de6b3",
+      "raw": {
+        "count_mismatches": [],
+        "fresh_root_count": 26970,
+        "matched_within_tolerance": 26970,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 26970,
+        "scan_count": 500,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      },
+      "scan_count": 500,
+      "selected": {
+        "count_mismatches": [],
+        "fresh_root_count": 6092,
+        "matched_within_tolerance": 6092,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 6092,
+        "scan_count": 500,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      }
+    },
+    "umeda_ring_beam": {
+      "accumulated_scan_seconds": 269.6121189929545,
+      "environment": {
+        "blas_libraries": [
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.31.188.0"
+          },
+          {
+            "architecture": "SkylakeX",
+            "internal_api": "openblas",
+            "threading_layer": "pthreads",
+            "version": "0.3.30"
+          }
+        ],
+        "blas_threads": 1,
+        "machine": "AMD64",
+        "numpy": "2.4.6",
+        "platform": "win32",
+        "python": "3.14.5",
+        "scipy": "1.17.1"
+      },
+      "full_scan": true,
+      "numerical_run_sha256": "64cbbbc64df364c23d3304fbac4547311073849d9fab470fc2af4d22e190b135",
+      "plan_sha256": "c0c8cc125fdfc14f183ae6c68c41d216f4051846e1a2383c9bfaf27e5cdfb228",
+      "raw": {
+        "count_mismatches": [],
+        "fresh_root_count": 63795,
+        "matched_within_tolerance": 63795,
+        "max_normalized_error": 6.743454613159625e-10,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 63795,
+        "scan_count": 117,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      },
+      "scan_count": 117,
+      "selected": {
+        "count_mismatches": [],
+        "fresh_root_count": 1689,
+        "matched_within_tolerance": 1689,
+        "max_normalized_error": 1.4795622580072198e-10,
+        "passed": true,
+        "reference_root_count_at_compared_scans": 1689,
+        "scan_count": 117,
+        "tolerance": 0.0001,
+        "unmatched_fresh_roots": 0,
+        "unmatched_reference_roots": 0
+      }
+    }
+  },
+  "comparison": "unordered_one_to_one_normalized_complex_root_assignment_per_scan",
+  "role": "postcomputation_regression_against_frozen_predictions_not_independent_physics_validation"
+}
