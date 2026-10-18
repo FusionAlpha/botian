@@ -1,0 +1,50 @@
+{
+  "canonical": {
+    "coordinate_dimensions": 1,
+    "matrix_size": 153,
+    "overrides": {
+      "iem": {
+        "canonical": 1,
+        "raw": 2
+      }
+    },
+    "roots_per_scan": 153,
+    "scan_points": 250
+  },
+  "case_id": "bo2018_darwin",
+  "development_oracle": "bo2018_darwin_iem1_root_pool",
+  "model": {
+    "iem": 1,
+    "j_poles": 8,
+    "jpole_variant": "j8_i10_opt3",
+    "n_harmonics": 1,
+    "set_ns": [],
+    "set_ns_semantics": "legacy_row_index",
+    "sp": 0
+  },
+  "normalization": {
+    "recipe": "first_species_cyclotron_skin"
+  },
+  "physics": {
+    "b0": 8.247e-06,
+    "constant_system": "si_2018"
+  },
+  "raw_input_dir": "raw",
+  "scan": {
+    "dpa": 0.01,
+    "dpb": 2.5,
+    "iloga": 0,
+    "ilogb": 0,
+    "initial_k": 0.0,
+    "initial_theta_deg": 0.0,
+    "ipa": 3,
+    "ipb": 3,
+    "pa1": 0.01,
+    "pa2": 2.5,
+    "pb1": 0.0,
+    "pb2": 89.0
+  },
+  "schema_version": 1,
+  "source_example": "Darwin",
+  "source_family": "2018_bo_pdrk"
+}

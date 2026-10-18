@@ -1,0 +1,45 @@
+{
+  "canonical": {
+    "coordinate_dimensions": 1,
+    "matrix_size": 825,
+    "overrides": {},
+    "roots_per_scan": 825,
+    "scan_points": 117
+  },
+  "case_id": "bo2018_ringbeam_umeda12",
+  "development_oracle": "bo2018_ringbeam_umeda12_root_pool",
+  "model": {
+    "iem": 1,
+    "j_poles": 8,
+    "jpole_variant": "j8_i10_opt3",
+    "n_harmonics": 8,
+    "set_ns": [],
+    "set_ns_semantics": "legacy_row_index",
+    "sp": 0
+  },
+  "normalization": {
+    "recipe": "first_species_cyclotron_and_combined_debye"
+  },
+  "physics": {
+    "b0": 9.624e-08,
+    "constant_system": "si_2018"
+  },
+  "raw_input_dir": "raw",
+  "scan": {
+    "dpa": 0.0025,
+    "dpb": 2.5,
+    "iloga": 0,
+    "ilogb": 0,
+    "initial_k": 0.5,
+    "initial_theta_deg": 40.0,
+    "ipa": 1,
+    "ipb": 1,
+    "pa1": 0.01,
+    "pa2": 0.3,
+    "pb1": 0.0,
+    "pb2": 89.0
+  },
+  "schema_version": 1,
+  "source_example": "ringbeam_Umeda12",
+  "source_family": "2018_bo_pdrk"
+}
