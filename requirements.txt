@@ -1,0 +1,5 @@
+# Reference numerical and plotting environment used for release validation.
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.10.9
+threadpoolctl==3.6.0

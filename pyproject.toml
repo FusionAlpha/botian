@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bo-t"
+version = "0.1.0"
+description = "Response-preserving BO/PDRK reduction and reproducible kinetic-dispersion examples"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "threadpoolctl>=3.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bo_t*", "boarbitrary_py*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
